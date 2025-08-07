@@ -1,0 +1,9 @@
+        Serial.println("INVALID:" + uidStr);
+
+Khi đọc được thẻ
+-	arduino nhận được: uidStr
+-	Serial port app arduino: INVALID:uidStr
+-	Winform nhận được: INVALID:uidStr
+ phải trừ đi 8 ký tự 		"INVALID:" dài 8 ký tự (I-N-V-A-L-I-D-:)
+Tự do chuyển giữa các form mà k lo về tắt rfid, camera hay picturebox vì chúng đã được gọi chung ở form cha – lobby
+	Đánh đổi lại là thời gian mở sẽ lâu hơn  thấy rõ nhất là các form chứa cả camera và r
